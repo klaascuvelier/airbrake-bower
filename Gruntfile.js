@@ -9,16 +9,16 @@ module.exports = function (grunt) {
         pkg    : grunt.file.readJSON('package.json'),
 
         shell: {
-            installDependencies: {
-                command: 'cd "node_modules/airbrake-js" && npm install',
+            removeOld: {
+                command: 'rm -R dist',
                 options: { callback: log }
             },
-            buildAirbreak: {
-                command: 'grunt --gruntfile "node_modules/airbrake-js/Gruntfile.coffee"',
+            createDist: {
+                command: 'mkdir dist',
                 options: { callback: log }
             },
-            copyDist: {
-                command: 'rm -R ./dist && mkdir ./dist && cp -r "node_modules/airbrake-js/dist/" ./dist',
+            getSource: {
+                command: 'curl https://raw.githubusercontent.com/airbrake/airbrake-js/master/examples/airbrake-shim.js -o dist/airbrake-shim.js',
                 options: { callback: log }
             }
         }
