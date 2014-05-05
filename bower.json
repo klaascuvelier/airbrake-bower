@@ -1,0 +1,25 @@
+{
+  "name": "airbrake-js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/klaascuvelier/airbrake-bower",
+  "authors": [
+    "Klaas Cuvelier <cuvelierklaas@gmail.com>"
+  ],
+  "description": "Bower package for Airbrake-js lib",
+  "main": "airbrake-shim.js",
+  "keywords": [
+    "airbrake",
+    "js",
+    "error",
+    "bower"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ]
+}

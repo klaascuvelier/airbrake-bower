@@ -1,0 +1,30 @@
+{
+  "name": "airbrake-bower",
+  "version": "0.0.1",
+  "description": "Bower package for Airbrake-js lib",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/klaascuvelier/airbrake-bower.git"
+  },
+  "keywords": [
+    "bower",
+    "airbrake",
+    "js",
+    "error"
+  ],
+  "author": "klaas cuvelier <cuvelierklaas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klaascuvelier/airbrake-bower/issues"
+  },
+  "homepage": "https://github.com/klaascuvelier/airbrake-bower",
+  "devDependencies": {
+      "airbrake-js": "git://github.com/airbrake/airbrake-js.git",
+      "grunt": "~0.4.1",
+      "grunt-shell": "0.6.4"
+  }
+}
