@@ -1,6 +1,6 @@
 {
   "name": "airbrake-bower",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bower package for Airbrake-shim.js lib",
   "main": "Gruntfile.js",
   "scripts": {
